@@ -53,10 +53,12 @@ html {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    border-bottom: #333 1px solid;
+    /* padding-bottom: 5px; */
 }
 #nav-list {
     display: flex;
@@ -150,6 +152,7 @@ html {
 .img-product {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 .collection-banner {
     grid-row: 1 / span 2;
@@ -160,13 +163,14 @@ html {
     width: calc((1200px / 5) - 10px);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .product-name {
     text-align: center;
 }
 .product-price {
     text-align: center;
+    margin-top: 5px;
 }
 .special-price {
     color: var(--red);
@@ -177,6 +181,7 @@ html {
 .old-price {
     text-decoration: line-through;
     margin-left: 10px;
+    font-size: 14px;
 }
 /*-----section-4-strat-----*/
 #grid-wrap-section-4 {
@@ -189,12 +194,12 @@ html {
     align-content: center;
 }
 .product-box-section-4 {
-    width: 290px;
-    height: 100px;
+    width: 291px;
+    height: 102px;
     position: relative;
     background-color: var(--light);
     border: 1px solid var(--dark);
-    border-radius: 20px;
+    border-radius: 10px;
     
     
 }
@@ -207,6 +212,7 @@ html {
     height: 100px;
     float: left;
     padding: 5px;
+    border-radius: 5px;
 }
 .product-price-section-4 {
     position: absolute;
@@ -217,6 +223,7 @@ html {
 .product-name-section-4 {
     color: var(--dark);
     font-size: 15px;
+    margin-top: 10px;
     
 }
 /*-----section-4-end-----*/
@@ -266,7 +273,8 @@ html {
 }
 .img-content-box {
     text-align: center;
-    width: 280px;
+    width: 283px;
+    margin-bottom: 10px;
 }
 /*-----section-5-end-----*/
 /*-----main content end-----*/
